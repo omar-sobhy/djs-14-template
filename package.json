@@ -1,0 +1,26 @@
+{
+  "name": "djs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "rm -rf ./build && tsc",
+    "start": "node ./build/index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "@sapphire/shapeshift": "^4.0.0",
+    "discord.js": "^14.15.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@stylistic/eslint-plugin": "^2.2.2",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.13.1"
+  }
+}
